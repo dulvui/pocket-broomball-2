@@ -1,2 +1,2 @@
 # pocket-broomball-2
-Second Pocket Broomball edition, probably in 3D made with Godot Engine
+Second Pocket Broomball edition with 5 on 5 gameplay.
