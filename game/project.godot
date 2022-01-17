@@ -13,20 +13,31 @@ _global_script_classes=[ {
 "class": "Player",
 "language": "GDScript",
 "path": "res://nodes/actors/player/Player.gd"
+}, {
+"base": "Control",
+"class": "VirtualJoystick",
+"language": "GDScript",
+"path": "res://joystick/virtual_joystick.gd"
 } ]
 _global_script_class_icons={
-"Player": ""
+"Player": "",
+"VirtualJoystick": ""
 }
 
 [application]
 
 config/name="Pocket Broomball 2"
-run/main_scene="res://nodes/field/Field.tscn"
+run/main_scene="res://nodes/pitch/Pitch.tscn"
 config/icon="res://icon.png"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [physics]
 
 common/enable_pause_aware_picking=true
+2d/default_gravity_vector=Vector2( 0, 0 )
 
 [rendering]
 

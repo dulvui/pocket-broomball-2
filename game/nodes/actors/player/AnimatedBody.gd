@@ -16,34 +16,34 @@ func _ready():
 	$Body/RightUpperArm.self_modulate = Color(upper_arm_color)
 	
 	
-	if get_parent().name == "Computer":
-		if Global.away_team_icon != null:
-			$Body/LeftShoulder/TeamLogo.texture = Global.away_team_icon
-			$Body/RightShoulder/TeamLogo.texture = Global.away_team_icon
-			
-			$Body/LeftShoulder.self_modulate = Color(Global.away_team_colors[0])
-			$Body/RightShoulder.self_modulate = Color(Global.away_team_colors[0])
-			
-			$Body/LeftUpperArm.self_modulate = Color(Global.away_team_colors[1])
-			$Body/RightUpperArm.self_modulate = Color(Global.away_team_colors[1])
-			
-			$Body/RightArm.self_modulate = Color(Global.away_team_colors[1])
-			$Body/LeftArm.self_modulate = Color(Global.away_team_colors[1])
-			
-			
-	else:
-		if Global.home_team_icon != null:
-			$Body/LeftShoulder/TeamLogo.texture = Global.home_team_icon
-			$Body/RightShoulder/TeamLogo.texture = Global.home_team_icon
-			
-			$Body/LeftShoulder.self_modulate = Color(Global.home_team_colors[0])
-			$Body/RightShoulder.self_modulate = Color(Global.home_team_colors[0])
-			
-			$Body/LeftUpperArm.self_modulate = Color(Global.home_team_colors[1])
-			$Body/RightUpperArm.self_modulate = Color(Global.home_team_colors[1])
-			
-			$Body/RightArm.self_modulate = Color(Global.home_team_colors[1])
-			$Body/LeftArm.self_modulate = Color(Global.home_team_colors[1])
+#	if get_parent().name == "Computer":
+#		if Global.away_team_icon != null:
+#			$Body/LeftShoulder/TeamLogo.texture = Global.away_team_icon
+#			$Body/RightShoulder/TeamLogo.texture = Global.away_team_icon
+#
+#			$Body/LeftShoulder.self_modulate = Color(Global.away_team_colors[0])
+#			$Body/RightShoulder.self_modulate = Color(Global.away_team_colors[0])
+#
+#			$Body/LeftUpperArm.self_modulate = Color(Global.away_team_colors[1])
+#			$Body/RightUpperArm.self_modulate = Color(Global.away_team_colors[1])
+#
+#			$Body/RightArm.self_modulate = Color(Global.away_team_colors[1])
+#			$Body/LeftArm.self_modulate = Color(Global.away_team_colors[1])
+#
+#
+#	else:
+#		if Global.home_team_icon != null:
+#			$Body/LeftShoulder/TeamLogo.texture = Global.home_team_icon
+#			$Body/RightShoulder/TeamLogo.texture = Global.home_team_icon
+#
+#			$Body/LeftShoulder.self_modulate = Color(Global.home_team_colors[0])
+#			$Body/RightShoulder.self_modulate = Color(Global.home_team_colors[0])
+#
+#			$Body/LeftUpperArm.self_modulate = Color(Global.home_team_colors[1])
+#			$Body/RightUpperArm.self_modulate = Color(Global.home_team_colors[1])
+#
+#			$Body/RightArm.self_modulate = Color(Global.home_team_colors[1])
+#			$Body/LeftArm.self_modulate = Color(Global.home_team_colors[1])
 			
 			
 	
