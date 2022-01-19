@@ -1,0 +1,25 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Pocket Broomball 2
+Upstream-Contact: Simon Dalvai <dulvui@posteo.de>
+Source: https://github.com/dulvui/pocket-broomball-2
+
+Files: game/joystick/**
+Copyright: 2019 Marco Fazio
+License: MIT
+
+Files: game/scenes/**
+Copyright: 2022 Simon Dalvai <dulvui@posteo.de>
+License: AGPL-3.0-or-later
+
+Files: assets/** game/assets/**
+Copyright: 2022 Simon Dalvai <dulvui@posteo.de>
+License: CC-BY-SA-4.0
+
+Files: README game/project.godot game/default_env.tres .gitignore
+Copyright: 2022 Simon Dalvai <dulvui@posteo.de>
+License: CC0-1.0
+
+
+Files:  game/icon.png game/icon.png.import
+Copyright: 2017 Andrea Calabró
+License: CC-BY-4.0

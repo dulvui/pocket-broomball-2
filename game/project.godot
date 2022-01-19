@@ -12,7 +12,7 @@ _global_script_classes=[ {
 "base": "KinematicBody2D",
 "class": "Player",
 "language": "GDScript",
-"path": "res://nodes/actors/player/Player.gd"
+"path": "res://scenes/actors/player/Player.gd"
 }, {
 "base": "Control",
 "class": "VirtualJoystick",
@@ -27,7 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Pocket Broomball 2"
-run/main_scene="res://nodes/pitch/Pitch.tscn"
+run/main_scene="res://scenes/pitch/Pitch.tscn"
 config/icon="res://icon.png"
 
 [input_devices]
