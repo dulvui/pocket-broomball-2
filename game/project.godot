@@ -14,10 +14,10 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://scenes/actors/player/Player.gd"
 }, {
-"base": "Control",
+"base": "Reference",
 "class": "VirtualJoystick",
 "language": "GDScript",
-"path": "res://joystick/virtual_joystick.gd"
+"path": "res://scenes/ui/joystick/virtual_joystick.gd"
 } ]
 _global_script_class_icons={
 "Player": "",
@@ -27,7 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Pocket Broomball 2"
-run/main_scene="res://scenes/pitch/Pitch.tscn"
+run/main_scene="res://scenes/match/Match.tscn"
 config/icon="res://icon.png"
 
 [input_devices]

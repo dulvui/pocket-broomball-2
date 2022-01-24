@@ -4,9 +4,6 @@ class_name Player
 
 onready var ball = get_parent().get_node("Ball");
 
-export (NodePath) var joystickLeftPath
-onready var joystickLeft : VirtualJoystick = get_node(joystickLeftPath)
-
 export var speed : float = 200
 
 var direction

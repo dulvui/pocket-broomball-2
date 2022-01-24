@@ -944,33 +944,33 @@ script = ExtResource( 10 )
 scale = Vector2( 0.903495, 0.903495 )
 
 [node name="Stick" type="Sprite" parent="Body"]
-position = Vector2( -14.7931, -25.2381 )
-rotation = -0.0241266
+position = Vector2( -17.5516, -24.367 )
+rotation = -0.0979638
 texture = ExtResource( 3 )
 
 [node name="LeftArm" type="Sprite" parent="Body"]
-position = Vector2( -35.6889, -19.9047 )
+position = Vector2( -37.4311, -18.8884 )
 rotation = -0.214293
 texture = ExtResource( 2 )
 
 [node name="RightArm" type="Sprite" parent="Body"]
-position = Vector2( 14.0466, -21.7983 )
-rotation = -0.718325
+position = Vector2( 13.0303, -23.5404 )
+rotation = -0.928164
 texture = ExtResource( 2 )
 
 [node name="LeftUpperArm" type="Sprite" parent="Body"]
-position = Vector2( -32.4781, -11.313 )
-rotation = -0.454965
+position = Vector2( -33.4944, -10.0064 )
+rotation = -0.628699
 texture = ExtResource( 5 )
 
 [node name="RightUpperArm" type="Sprite" parent="Body"]
-position = Vector2( 14.9883, -15.6382 )
+position = Vector2( 14.1172, -16.9448 )
 rotation = 1.13149
 texture = ExtResource( 5 )
 
 [node name="RightShoulder" type="Sprite" parent="Body"]
-position = Vector2( 4.95595, -10.4929 )
-rotation = -0.021869
+position = Vector2( 4.95594, -11.7995 )
+rotation = -0.151439
 texture = ExtResource( 6 )
 
 [node name="ShirtNumber" type="Label" parent="Body/RightShoulder"]
@@ -993,8 +993,8 @@ rotation = 0.021869
 scale = Vector2( 0.0354797, 0.0354797 )
 
 [node name="LeftShoulder" type="Sprite" parent="Body"]
-position = Vector2( -25.0415, -9.11794 )
-rotation = -0.0274226
+position = Vector2( -25.4771, -7.81132 )
+rotation = -0.0788458
 texture = ExtResource( 6 )
 flip_h = true
 
@@ -1018,7 +1018,8 @@ rotation = 0.0274226
 scale = Vector2( 0.0354797, 0.0354797 )
 
 [node name="Head" type="Sprite" parent="Body"]
-position = Vector2( -10.1578, -9.76715 )
+position = Vector2( -10.303, -11.6545 )
+rotation = -0.103227
 scale = Vector2( 1.16745, 1.16745 )
 texture = ExtResource( 4 )
 
